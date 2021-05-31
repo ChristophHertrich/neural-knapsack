@@ -18,11 +18,9 @@ Note that numpy and tensorflow only guarantee the same outcome of random experim
 
 ### Reproducing the experiments of our paper
 
-##### Section 5
+##### Section 5 and Appendix A
 
-For reproducing the experiment of Section 5 one only needs to run 'knapsack_experiments.py' and 'knapsack_analyze.py' in this order. The latter will output a plot as included in our paper, as well as, a summary of the least squares regression including the reported p-value.
-
-##### Appendix A
+For reproducing the experiment  with threshold 0.005 one only needs to run 'knapsack_experiments.py' and 'knapsack_analyze.py' in this order. The latter will output a plot as included in our paper, as well as, a summary of the least squares regression including the reported p-value.
 
 For reproducing the experiment with threshold 0.0025, please modify the following parameters in the header of 'knapsack_experiments.py':
 ```python
