@@ -12,15 +12,15 @@ and the corresponding chapter in the dissertation
 > Facets of Neural Network Complexity.
 > [(link to dissertation)](https://doi.org/10.14279/depositonce-15271).
 
-There exist two different versions of code. For reproducing the experiments in arXiv.v2 and in the dissertation, please use the code provided in the subfolder 'code_v1'. For a future journal version, please use the code provided in the subfolder 'code_v2'.
+There exist two different code versions. For reproducing the experiments in arXiv.v2 and in the dissertation, please use the code provided in the subfolder 'code_v1'. For a future journal version, please use the code provided in the subfolder 'code_v2'.
 
 ### Requirements
+
+(with the versions used in our paper)
 
 Note that numpy and tensorflow only guarantee the same outcome of random experiments with explicit seeds if exactly these versions are used.
 
 #### For code_v1
-
-(with the versions used in our paper)
 * python (3.8.5)
 * numpy (1.19.1)
 * tensorflow (2.2.0)
@@ -28,8 +28,6 @@ Note that numpy and tensorflow only guarantee the same outcome of random experim
 * matplotlib (3.3.1)
 
 #### For code_v2
-
-(with the versions used in our paper)
 * python (3.8.13)
 * numpy (1.22.3)
 * tensorflow (2.3.0)
